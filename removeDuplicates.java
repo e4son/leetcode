@@ -3,9 +3,7 @@ import java.util.Arrays;
 import java.util.*;
 public class removeDuplicates {
     public static void main(String[] args) {
-    	 int[] nums = {0,1,2,2,2,2,3,3,3,5,5,5,6,6,7,7,7,9};//sorted array
-        // boolean ans = removeDuplicates(x);//判斷迴文 123321 
-         //System.out.printf("%b\n",ans);       
+    	 int[] nums = {0,1,2,2,2,2,3,3,3,5,5,5,6,6,7,7,7,9};//sorted array      
          System.out.printf("%d\n",removeDuplicates(nums));     
          
 
